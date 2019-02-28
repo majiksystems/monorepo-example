@@ -1,0 +1,9 @@
+{
+  "name": "@majik/deployment",
+  "version": "0.0.0",
+  "description": "Majik Deployment",
+  "author": {
+    "name": "Majik",
+    "email": "support@majik.io"
+  },
+}
