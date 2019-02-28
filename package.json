@@ -7,7 +7,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "start": "node index.js $(whoami) $(date '+%H:%M') $(uptime | cut -d' ' -f5 | tr -d ',')"
+    "start": "node index.js $(whoami) $(date '+%H:%M') $(uptime | cut -d' ' -f5 | tr -d ',') $(pwd)"
   },
   "workspaces": {
     "packages": [
