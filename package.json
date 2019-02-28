@@ -7,6 +7,6 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "start": "node index.js $(whoami) $(date '+%H:%M') $(uptime | cut -d' ' -f5 | tr -d ',')"
+    "start": "node index.js $(whoami) $(date '+%H:%M') $(uptime | cut -d' ' -f5 | tr -d ',') $(pwd)"
   }
 }
